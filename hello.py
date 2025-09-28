@@ -27,7 +27,7 @@ def about():
 def contact():
     return '''
         <h1>Contact</h1>
-        <p>You can reach me at: <strong>kessienaunuakpor@gmail.com</strong></p>
+        <p>You can reach me at: <strong>KESSIENAUNUAKPOR@gmail.com</strong></p>
         <p><a href="/">Back to Home</a></p>
     '''
 
