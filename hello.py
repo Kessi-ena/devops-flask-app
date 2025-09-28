@@ -6,8 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-        <h1>Welcome to my Flask App!</h1>
-        <p>Hello, World, I am a Flask app!</p>
+        <h1>Welcome!</h1>
         <p>
             <a href="/about">About</a> | 
             <a href="/contact">Contact</a>
