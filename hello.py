@@ -27,9 +27,10 @@ def about():
 def contact():
     return '''
         <h1>Contact</h1>
-        <p>You can reach me at: <strong>kessienaunuakpor@gmail.com</strong></p>
+        <p>You can reach me at: <strong>KESSIENAUNUAKPOR@gmail.com</strong></p>
         <p><a href="/">Back to Home</a></p>
     '''
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
+
